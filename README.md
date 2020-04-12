@@ -8,7 +8,7 @@ For those whom would interested in more technical details, the paper is coming s
 
 ## Quick Start
 
-After downloading this repository, please open *skeletonGeneration_Main.py*, modify the parameters in the first section, and then run it. It will output a csv file of final generated skeleton coordination of your given violin solo. Please be noted that the format of the given clip should be 16 bits wav file.
+After downloading this repository, please open ```skeletonGeneration_Main.py```, modify the parameters in the first section, and then run it. It will output a csv file of final generated skeleton coordination of your given violin solo. Please be noted that the format of the given clip should be 16 bits wav file.
 
 ## Overview
 
