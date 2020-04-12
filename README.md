@@ -36,10 +36,10 @@ pip install -r requirements.txt
 
 #### Pre-processing
 
-This project consists of two neural networks, Bowing Attack Networks trained with [URMP dataset](http://www2.ece.rochester.edu/projects/air/projects/URMP.html) and Arousal Networks trained with [DEAM datasets](http://cvml.unige.ch/databases/DEAM/). All the data required for training two neural networks have been processed by running *dataPreProcessing.py*. Both raw data and processed data can be found [here](https://drive.google.com/drive/folders/12JcY1ANmQFa7I_Cu8EMUWbIgJg0_lSz-?usp=sharing). For more details on training data, please refer to *Dataset_README.txt*. 
+This project consists of two neural networks, Bowing Attack Networks trained with [URMP dataset](http://www2.ece.rochester.edu/projects/air/projects/URMP.html) and Arousal Networks trained with [DEAM datasets](http://cvml.unige.ch/databases/DEAM/). All the data required for training two neural networks have been processed by running ```dataPreProcessing.py```. Both raw data and processed data can be found [here](https://drive.google.com/drive/folders/12JcY1ANmQFa7I_Cu8EMUWbIgJg0_lSz-?usp=sharing). For more details on training data, please refer to *Dataset_README.txt*. 
 
 #### Training
 
-Both networks have already been trained with default features in the paper, as checkpoints file, *bowingAttackNetwork_model.h5* and *arousalNetwork_model.h5*, are available for a quick start.
+Both networks have already been trained with default features in the paper, as checkpoints file, ```bowingAttackNetwork_model.h5``` and ```arousalNetwork_model.h5```, are available for a quick start.
 
-If you want to train the networks with different features, please first download the processed data (link can be found in the [Pre-processing](#pre-processing) section), modify the parameters (data location and network features) in *bowingAttackNetwork_training.py* or *arousalNetwork_training.py*, and run it.
+If you want to train the networks with different features, please first download the processed data (link can be found in the [Pre-processing](#pre-processing) section), modify the parameters (data location and network features) in ```bowingAttackNetwork_training.py``` or ```arousalNetwork_training.py```, and run it.
