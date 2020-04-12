@@ -420,20 +420,17 @@ if __name__ == '__main__':
     2. calculate_A2B_F1Score(pieces, threshold_lst)
         *pieces : change the list 'pieces'
         *threshold_lst : put in tested thresholds, more than one value is avaliable
+    
     '''
-    
-    
-    
+      
     threshold_lst = [0.3]
     pieces_A2B = ['35_2','36_2','39_1','39_2']
     pieces_ourMethod = ['35-2','36-2','39','39-2']
     pieces_pred = ['AuSep_vn_35_Rondeau_2', 'AuSep_vn_36_Rondeau_2', 'AuSep_vn_39_Jerusalem_1', 'AuSep_vn_39_Jerusalem_2']
     
-    #pieces_ourMethod = ['01', '13', '17', '32']
-    #pieces_name = ['AuSep_vn_01_Jupiter_1', 'AuSep_vn_13_Hark_1', 'AuSep_vn_17_Nocturne_1', 'AuSep_vn_32_Fugue_1']
-    
+    ## calculate F1 score for OurMethod and Baseline Method
     f1Score_OurMethod = calculate_OurMethod_F1Score('>0.5', pieces_ourMethod, pieces_pred, threshold_lst)
-    f1Score_A2B = calculate_A2B_F1Score(pieces_A2B, threshold_lst, './A2B_testingData_Ver.2/')
+    f1Score_A2B = calculate_A2B_F1Score(pieces_A2B, threshold_lst, './baseline_Results_TestingTracks/')
 
     
     

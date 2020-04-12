@@ -168,17 +168,20 @@ def buildModel():
 
 if __name__ == '__main__':
     
-    ## parameter
+    ## ========================
+    ## parameters
+    ## ========================
     model_name = 'arousalNetwork_model' 
     music_location = "<insert data path>/Emotion_Audio_Csv/"
     annotation_location = "<insert data path>/Emotion_Arousal_Csv/arousal.csv"
+    batch_size = 128
+    epochs = 500
     
+    ## constants
+    vidForVal = 100
     import_song = 1802
     seqLength = 30
     fps = 60
-    batch_size = 128
-    epochs = 500
-    vidForVal = 100
     
     ## reading data
     X, Y = readData(music_location, annotation_location, import_song, seqLength, fps)

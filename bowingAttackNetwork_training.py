@@ -11,7 +11,6 @@ import csv
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-
 label_len = []
 def readData(music_location, label_location):
     
@@ -133,12 +132,12 @@ def buildSmallerModel():
 
 if __name__== "__main__":
     
-    ## dataset location
+    ## ========================
+    ## parameters
+    ## ========================
     music_location = "<insert data path>/Violin_Audio_Csv_chosen(14pieces)/"
     label_location = "<insert data path>/Violin_BowingAttacks_Txt_chosen(14pieces)/" 
-    
-    ## parameters
-    timestep = 64
+    timestep = 64  # time segment center at time t to predict whether the time t is a bowing attack, segment length = timestep/fps(30)
     batch_size = 128
     epochs = 500
     
