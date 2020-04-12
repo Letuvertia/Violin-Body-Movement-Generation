@@ -43,5 +43,3 @@ This project consists of two neural networks, Bowing Attack Networks trained wit
 Both networks have already been trained with default features in the paper, as checkpoints file, *bowingAttackNetwork_model.h5* and *arousalNetwork_model.h5*, are available for a quick start.
 
 If you want to train the networks with different features, please first download the processed data (link can be found in the [Pre-processing](#pre-processing) section), modify the parameters (data location and network features) in *bowingAttackNetwork_training.py* or *arousalNetwork_training.py*, and run it.
-
-#### Evaluation
