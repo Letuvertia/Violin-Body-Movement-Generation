@@ -16,6 +16,8 @@ In general, the framework takes audio as input, and outputs a 20-D sequence cont
 
 Here is the illustration of the proposed framework:
 
+![maps](./figures/Overview_GitHub_Ver1.png)
+
 In the bowing model, we trained a CNN to predict bowing attack, the time instance when the bowing direction changes. The bowing movement generation problem is then simpliﬁed into the process of stretching or truncating the **templates**, of which boundary and duration are based on bowing attack prediction.
 
 In the position model, the left hand movement was generated based on the position information derived from the Pitch Detection Algorithm(PDA).
