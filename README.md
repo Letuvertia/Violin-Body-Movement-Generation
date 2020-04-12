@@ -2,7 +2,7 @@
 
 This project aims to generate expressive violinists’ body movements based on a violin recording solo. Considering the multifaceted characteristics of musical movements on string instruments, we take a divide-and-conquer approach to tackle the problem and proposed a framework for the generation.
 
-For evaluation, both objective and subjective evaluation shows that the proposed framework improves the stability as well as the perceptual quality of the generation outputs by using the task-speciﬁc models for bowing and expressive movement compared to the baseline model.
+For evaluation, both objective and subjective evaluation shows that the proposed framework improves the stability as well as the perceptual quality of the generation outputs by using the task-speciﬁc models for bowing and expressive movement compared to the [baseline model](https://arxiv.org/abs/1712.09382).
 
 For those whom would interested in more technical details, the paper is coming soon.
 
