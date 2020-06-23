@@ -4,7 +4,7 @@ This project aims to generate expressive violinists’ body movements based on a
 
 For evaluation, both objective and subjective evaluation shows that the proposed framework improves the stability as well as the perceptual quality of the generation outputs by using the task-speciﬁc models for bowing and expressive movement compared to the [baseline model](https://arxiv.org/abs/1712.09382).
 
-For those whom would interested in more technical details, the paper can be found [here](https://ieeexplore.ieee.org/abstract/document/9054463)
+For those whom would interested in more technical details, the paper can be found [here](https://ieeexplore.ieee.org/abstract/document/9054463).
 
 ## Quick Start
 
